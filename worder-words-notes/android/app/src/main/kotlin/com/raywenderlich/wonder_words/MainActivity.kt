@@ -1,4 +1,4 @@
-package com.raywenderlich.wonder_words
+package com.wonder_words
 
 import io.flutter.embedding.android.FlutterActivity
 

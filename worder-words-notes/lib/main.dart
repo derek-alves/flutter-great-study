@@ -76,6 +76,7 @@ class _WonderWordsState extends State<WonderWords> {
   final _keyValueStorage = KeyValueStorage();
   final _analyticsService = AnalyticsService();
   final _dynamicLinkService = DynamicLinkService();
+
   late final _favQsApi = FavQsApi(
     userTokenSupplier: () => _userRepository.getUserToken(),
   );
